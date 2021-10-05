@@ -20,7 +20,7 @@ public class raycasting : MonoBehaviour
             Debug.DrawRay(Vector3.zero, transform.forward * 10, Color.green);
             if (Physics.Raycast(Vector3.zero, transform.forward, out hit, 10, mask))
             {
-                gameObject
+                
             }
         }
     }
